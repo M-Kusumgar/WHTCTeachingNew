@@ -1,0 +1,24 @@
+Underline and define keywords in questions and ask for interaction
+First explicit method --> main steps with whiteboards/discussion --> one their own
+Picking on people if noone answers
+Any questions? after every example
+How does this question differ from previous question?
+Helping student with prev question while the rest do another question so people can work at different paces
+Is this the best way to help though, the problem may be deeper? Will the student be overwhelmed if I 
+ask them to come to the office after school?
+Make sure you have a good whiteboard pen and eraser
+
+Lots of silence due to large class, I will try to have very little silence unless students are thinking hard
+mv-mu can be factorised? because mass is constant. Doesnt affect anything actually so student was right
+I should have a hard think about whether the student is saying something valid and let them think in their way
+Students are getting a lot of things correct? Is it beneficial to keep doing that many questions on the same
+formula with slight variance?
+
+echo "# WHTCTeaching" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/M-Kusumgar/WHTCTeaching.git
+git push -u origin main
+
