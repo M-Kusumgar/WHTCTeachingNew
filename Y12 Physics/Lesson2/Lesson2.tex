@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+
+\begin{document}
+    {\Huge \textbf{Viscous Drag} \par}
+
+    \section*{Relevant formula}
+    \begin{enumerate}
+        \item $W = mg, \: weight \, = \, mass \times gravity$
+        \item $\rho = \frac{m}{V}, \: density \, = \, \frac{mass}{volume}$
+        \item $F = 6 \pi \eta rv, \: drag \, force \, = \, 6 \times \pi \times density \, 
+        of \, fluid \times radius \times velocity$ 
+    \end{enumerate}
+
+    \section*{Conditions of Stokes' formula}
+    \begin{enumerate}
+        \item Small radius
+        \item Small velocity
+        \item Spherical ball
+        \item Laminar flow
+    \end{enumerate}
+
+    \section*{Note}
+    Viscosity changes with temperature. The higher the temperature the less viscous. The
+    lower the temperature the higher the viscosity.
+
+    The weight of fluid displaced by an object is the amount of upthrust it faces. So
+    \[upthrust \, =  V\rho g, \: volume \, of \, object \times density \, of \, fluid \times gravity\]
+
+    \section*{Derivation of big viscosity formula}
+    We start with Stokes' law:
+    \[F = 6\pi\eta rv\]
+    If we draw the free body diagram then upthrust, $U$, is upwards. Weight, $W$, is downwards. Viscous 
+    drag, $F$, is in the opposite direction of motion. Let's say the ball is traveling downwards so viscous
+    drag is upwards. So we have $U + F = W$. Upthrust is same as weight of fluid displaced so, if $\rho_{1}$
+    is the density of the ball and $\rho_{2}$ is the density of the fluid, we have:
+    \[U = mass \, of \, fluid \, displaced \times g\]
+    \[= V\rho_{2}g\] 
+    \[W = mass \, of \, object \times g\]
+    \[= V\rho_{1}g\]
+    Subbing these into $U + F = W$ we get:
+    \[V\rho_{2}g + 6\pi\eta rv = V\rho_{1}g\]
+    \[6\pi\eta rv = Vg(\rho_{1} - \rho_{2})\]
+    \[\eta = \frac{Vg(\rho_{1} - \rho_{2})}{6\pi rv}\]
+\end{document}
